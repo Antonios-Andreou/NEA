@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-04-18T11:05:16.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="MMSdhtZOe3UiCi0o2QoS" version="21.1.8" type="device">
+  <diagram id="lXkWkiwBOM39oJB-A_eM" name="Page-1">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-1" value="classroom" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="60" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-2" value="classid* (int)&lt;br&gt;classname (text)&lt;br&gt;teacherid (int)&lt;br&gt;questionscorrectclass (int)&lt;br&gt;questionsattemptedclass (int)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="VBfZ1wtwEtbXro1siHnM-1" vertex="1">
+          <mxGeometry y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-3" value="students" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="60" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-4" value="studentid* (int)&lt;br&gt;studentname (text)&lt;br&gt;password (text)&lt;br&gt;classid (int)&lt;br&gt;questionsattempted (int)&lt;br&gt;questionscorrect (int)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="VBfZ1wtwEtbXro1siHnM-3" vertex="1">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-7" value="teachers" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="60" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-8" value="teacherid* (int)&lt;br&gt;teachername (text)&lt;br&gt;password (text)&lt;br&gt;classid (int)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="VBfZ1wtwEtbXro1siHnM-7" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-9" value="quiz" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="200" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-10" value="qnum* (int)&lt;br&gt;qtext (text)&lt;br&gt;answer (text)&lt;br&gt;fakeanswer (text)&lt;br&gt;fakeranswer (text)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="VBfZ1wtwEtbXro1siHnM-9" vertex="1">
+          <mxGeometry y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-11" value="planes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="200" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-12" value="planeid* (int)&lt;br&gt;planename (text)&lt;br&gt;velocity (float)&lt;br&gt;wingarea (float" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="VBfZ1wtwEtbXro1siHnM-11" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VBfZ1wtwEtbXro1siHnM-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VBfZ1wtwEtbXro1siHnM-2" target="VBfZ1wtwEtbXro1siHnM-4" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="490" y="210" as="sourcePoint" />
+            <mxPoint x="590" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3OsfLQoNIgdprERIHW9-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VBfZ1wtwEtbXro1siHnM-8" target="VBfZ1wtwEtbXro1siHnM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
